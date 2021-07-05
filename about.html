@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Bangle Lance Bible Study | Jesus Christ Has Risen</title>
+    <style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 25px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 1s;
+  padding: 16px;
+}
+
+#hide {
+  transition: fade 1s;
+display:show;}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+    .error {color: #FF0000;}
+    </style>
+  </head>
+  <body class="red">
+    <div id="mySidebar" class="sidebar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="https://us04web.zoom.us/j/74574827141?">Join Zoom Meeting</a>
+  <a href="contact.html">Contact</a>
+
+</div>
+
+
+<div id="main">
+  <button id="hide" class="openbtn" onclick="openNav()">☰ Open Menu</button>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "350px";
+  document.getElementById("main").style.marginLeft = "350px";
+  document.getElementById("hide").style.display= "none";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+   document.getElementById("hide").style.display="";
+      document.getElementById("demo").style.display="";
+}
+</script>
+  <h1 class="green">Bangle Lane Bible Study</h1>
+
+  <style>
+p {
+  text-align: center;
+  font-size: 12vw;
+  margin-top: 0px;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+  <p id="clock"></p>
+
+  <script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Apr 12, 2021 16:30:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="demo"
+    document.getElementById("clock").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the count down is over, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "<a href='https://www.danielfanelli.me'>Join the Zoom Meeting Now!</a>";
+    }
+  }, 1000);
+  </script>
+
+<h1>About Our Bible Study Group</h1>
+
+  </body>
+</html>

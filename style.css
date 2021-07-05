@@ -1,0 +1,555 @@
+html {
+
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0px;
+  margin: 0px;
+ width: 100vw;
+ height: 100vh;
+ background-color: white;
+}
+p {
+  font-size: 1.25vw;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+#llinks {
+  width: 100%;
+  text-align:center;
+  color: white;
+}
+
+#link1 {
+   border-right: 2px solid white;
+   margin-right: 10px;
+}
+
+
+.soon {
+  width: 100%;
+margin: 0px;
+padding: 0px 0px 10px 0px;
+  letter-spacing: 10px;
+  font-size: 2.5vw;
+  color: black;
+  background-color: #e0e0e0;
+
+}
+
+
+#service {
+  color: black;
+  text-align: center;
+  font-size: 2.5vw;
+  margin: 0px;
+  padding: 15px 0px;
+  font-family: Times;
+}
+
+#pastorpic {
+  width: 75%;
+  margin: 0px 12%;
+  border: black 4px solid;
+}
+#times {
+color: black;
+text-align: center;
+font-size: 2.5vw;
+margin: 0px;
+padding: 15px 0px;
+font-weight: normal;
+font-family: Times;
+
+}
+#address {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0px;
+  margin: 0px
+
+}
+li a:hover {
+  background-color: black;
+  color: white;}
+
+#clock {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 0px;
+  font-weight: bold;
+  border-bottom: 2px black solid;
+}
+
+#next {
+  font-size: 2vw;
+  background-color: lightblue;
+}
+
+
+#donate {
+  border-left: white groove 2px;
+  color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 2.5vw;
+    padding: 5px;
+
+    float: right;
+}
+
+#id {
+  font-size: 2.25vw;
+}
+.col-1-3 {
+width: 33.0%;
+float: left;
+margin:0px;
+padding: 0px;
+height: 70vh;
+
+}
+
+.col-2-5 {
+width: 39.5%;
+float: left;
+margin:0px;
+padding: 0px;
+height: auto;
+
+}
+
+#by {
+  font-size: .9em;
+    text-align: left;
+    font-weight: normal;
+}
+
+
+
+.black {
+  background-color: #0e0e0e;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  padding: 20px;
+}
+
+#linkshdg {
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+.col-3-5 {
+width: 59.5%;
+float: left;
+margin:0px;
+height: 70vh;
+background-color: white
+}
+
+.border {
+    border-bottom: black solid 3px;
+}
+
+
+
+#name {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer a, #tag  {
+  color: #101010;
+  text-decoration:none;
+}
+
+#tag {
+  margin: 10px 0px 0px 0px;
+  padding: 10px 0px;
+  width: 100%;
+
+color: black;
+  text-align: left;
+}
+#fh1 {
+font-size:2em;
+}
+
+footer {
+  background-color: black;
+  height:300px;
+  margin: 0px;
+width: 100%;
+  padding: 0px;
+  color: white;
+
+}
+
+.footer-row {
+  padding: 0px 25px 0px 25px;
+  height: auto;
+  margin: 0px;
+
+
+}
+
+h6 {
+  margin: 0px;
+
+  text-align: center;
+  font-size: 1.75em;
+}
+
+.col-1-4 {
+  background-color: white;
+  height: 80px;
+  margin-top: 0px;
+width: 20%;
+  padding: 15px 15px;
+  color: black;
+  float: left;
+}
+
+.elevatelogo {
+
+  background: url("DLAD3482.PNG") no-repeat;
+  background-size: 100% 100%;
+  max-width: auto;
+  height: 100%;
+}
+
+.elevatelogo a {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#footer1 {
+  background-color: white;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+border-top: black groove 4px;
+}
+
+footer p {
+color:black;
+text-align: left;
+margin: 0px;
+padding: 0px 0px;
+
+}
+#fh1 {
+  color: white;
+  font-size: 1.0em;
+}
+
+#donate:hover {
+  color: black;
+  background-color: white;
+
+}
+
+.border-right {
+  border-right: 2px solid black;
+}
+
+#close {
+  border: 0px;
+}
+
+
+.sidebar {
+  height: auto;
+  width: 0;
+  margin-left: 5vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 10px;
+  background-color: white;
+
+}
+
+
+
+
+div .navlink {
+    width: 17%;
+    border-right: 2px #e4e4e4 solid;
+    display: inline-block;
+    float: left;
+    text-align:center;
+ padding: 0px;
+
+}
+.sidebar a {
+
+
+    text-decoration: none;
+    font-size: 2.4em;
+    font-family: Times;
+    color: navy;
+    display: inline;
+    transition: 0.3s;
+      font-weight: bold;
+}
+
+
+
+.sidebar a:hover {
+
+  border: 2px solid black;
+    font-weight: bold;
+
+}
+
+
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 25px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  float:left;
+
+}
+
+#join  {
+
+  padding: 23px 20px 8px 20px;
+font-size: 1.4em;
+color: black;
+text-align:center;
+}
+
+
+.openbtn:hover {
+  background-color: black;
+  color: white;
+}
+
+#main {
+  transition:  1s;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+}
+
+#hide {
+  transition: fade 1s;
+display:show;}
+
+
+.green {
+  margin:0px;
+  padding: 0px;
+  color:#101010;
+    text-outline: 3px solid black;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+
+
+
+
+nav {
+  width: 85%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+
+  width: auto;
+
+
+
+  text-align: center;
+  float:left;
+
+}
+
+a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+color: #000;
+padding: 8px 5px;
+text-decoration: none;
+text-align: center;
+font-weight: bold;
+
+}
+
+.row {
+  padding: 0px;
+  width: 100%;
+  height: 75vh;
+}
+
+#footer-row {
+  padding: 0px 25px 0px 25px;
+  height: 100px;
+  margin: 0px;
+
+
+}
+.welcome {
+  float:right;
+  width: 40%;
+}
+#page1 {
+  background: url("DLAD3482.PNG") no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+
+  height:60vh;
+padding: 0px;
+  margin: 0px;
+
+}
+#body2 {
+
+width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+}
+
+div {
+  padding: 0px;
+  margin: 0px;
+}
+.center {
+text-align:center;
+}
+
+#zero0, #zero1, #zero2, #zero3, #zero4 {
+margin: 0px;
+
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+    .error {color: #FF0000;}
+
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+
+  }
+
+  .col-1-4 {
+    height: auto;
+  }
+
+  .elevatelogo {
+    max-width: 100%;
+    margin: 0px;
+    height: 400px;
+  }
+
+  .col-2-3 {
+    height: 45vh;
+  }
+
+  #service {
+    font-size: 2em;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  #times {
+    font-size: 1.5em;
+  }
+
+ footer p {
+   font-size: 1em;
+ }
+  .elevatelogo a {
+    font-size: 1.2em;
+  }
+
+  #join {
+
+  }
+
+
+
+
+.heading {
+      margin: 0px;
+      padding: 0px;
+      background-color: white;
+
+}
+  .row {
+    padding: 0px;
+width: 100%;
+height: 900px;
+  }
+
+  .col-1-1 {
+    height: 125px;
+    padding: 3% 0px;
+    margin: 0px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: black solid 5px;
+  }
+
+  .border {
+      border-bottom: black solid 3px;
+  }
+
+  .soon {
+    font-size: 2.0em;
+    padding: 10px 0px;
+    letter-spacing: 30px;
+  }
+
+#donate {
+  font-size: 1.2em;
+  width: 100%;
+  border: 0px;
+  /* float: none; */
+  margin: 0px;
+  padding: 30px 0px;
+}
+
+}
